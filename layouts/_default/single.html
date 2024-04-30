@@ -8,6 +8,7 @@
     <!-- Begin actual content -->
     {{partial "header.html" .}}
     <article>
+      {{ if .Params.header_image }}<img src="{{ .Params.header_image }}">{{ end }}
       {{if .Title}}<h1>{{ .Title }}</h1>{{end}}
       <p class="meta">
         {{ i18n "last_updated" }} {{ partial "date-fmt.html" .}} 

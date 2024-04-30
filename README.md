@@ -1,10 +1,6 @@
-# Quartz 3
+# Magma
 
-> [!warning]
-> Quartz v3 is now deprecated and will no longer be maintained.
-> See how to migrate to [Quartz 4](https://quartz.jzhao.xyz) 
-
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+Forked from jackyzha0's awesome [quartz](https://github.com/jackyzha0/quartz) theme, Magma is a Hugo theme carrying on the tradition of allowing you to host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Magma features
 
 1. Extremely fast natural-language search
 2. Customizable and hackable design based on Hugo
@@ -12,12 +8,5 @@ Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-th
 4. Built-in CJK + Latex Support and Admonition-style callouts
 5. Support for both Markdown Links and Wikilinks
 
-Check out some of the [amazing gardens that community members](https://quartz.jzhao.xyz/notes/showcase/) have published with Quartz!
+![Magma Example Screenshot](./screenshot.png)*Magma Example Screenshot*
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
-
-🔗 Get Started: https://three.quartz.jzhao.xyz/
-
-![Quartz Example Screenshot](./screenshot.png)*Quartz Example Screenshot*
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
