@@ -8,3 +8,5 @@ Forked from jackyzha0's awesome [quartz](https://github.com/jackyzha0/quartz) th
 4. Built-in CJK + Latex Support and Admonition-style callouts
 5. Support for both Markdown Links and Wikilinks
 
+![Magma Example Screenshot](./screenshot.png)*Magma Example Screenshot*
+
