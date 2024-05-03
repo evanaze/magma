@@ -24,6 +24,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
 
   // Links is mutated by d3. We want to use links later on, so we make a copy and pass that one to d3
   // Note: shallow cloning does not work because it copies over references from the original array
+  let copyLinks = []
   const copyLinks = JSON.parse(JSON.stringify(links))
 
   const neighbours = new Set()
