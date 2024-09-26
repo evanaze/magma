@@ -1,8 +1,21 @@
-.DS_Store
+resources/_gen/*
 public
-resources
-.idea
-content/.obsidian
+.DS_Store
+.hugo_build.lock
+.obsidian
+content/templates
+scripts
 assets/indices/linkIndex.json
 assets/indices/contentIndex.json
 linkmap
+.vscode/
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
