@@ -1,0 +1,8 @@
+{{ if .Params.header_image}}
+<figure>
+  <img src="{{ .Params.header_image }}" />
+  {{ if .Params.header_caption}}
+  <figcaption class="caption">{{ .Params.header_caption }}</figcaption>
+  {{ end }}
+</figure>
+{{ end }}
