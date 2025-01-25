@@ -2,6 +2,12 @@
 {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
 {{ $data := index $.Site.Data $config }}
 <head>
+  <!-- Add redirect logic at the very top of head -->
+  {{ if and (eq .Site.BaseURL "https://evanazevedo.com/") (in .RelPermalink "posts/") }}
+    {{ $newURL := replace .Permalink "evanazevedo.com" "me.evanazevedo.com" }}
+    <meta http-equiv="refresh" content="0;url={{ $newURL }}">
+  {{ end }}
+
   <!-- Meta tags -->
   <meta charset="UTF-8" />
   <meta
