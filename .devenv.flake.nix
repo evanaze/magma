@@ -1,14 +1,20 @@
 {
   inputs =
     let
+<<<<<<< HEAD
       version = "1.3.1";
 system = "x86_64-linux";
 devenv_root = "/home/evanaze/workspace/magma";
+=======
+      version = "1.1.0";
+system = "x86_64-darwin";
+devenv_root = "/Users/evanaze/workspace/magma";
+>>>>>>> 259563b63c8b691e0b92555e4adb66d9e2169e64
 devenv_dotfile = ./.devenv;
 devenv_dotfile_string = ".devenv";
 container_name = null;
-devenv_tmpdir = "/run/user/1000";
-devenv_runtime = "/run/user/1000/devenv-19fcf46";
+devenv_tmpdir = "/var/folders/jf/2gkck5pj0ks5tl08w48h0ztm0000gr/T/";
+devenv_runtime = "/var/folders/jf/2gkck5pj0ks5tl08w48h0ztm0000gr/T/devenv-bc37a8c";
 devenv_istesting = false;
 
         in {
@@ -22,14 +28,20 @@ devenv_istesting = false;
 
       outputs = { nixpkgs, ... }@inputs:
         let
+<<<<<<< HEAD
           version = "1.3.1";
 system = "x86_64-linux";
 devenv_root = "/home/evanaze/workspace/magma";
+=======
+          version = "1.1.0";
+system = "x86_64-darwin";
+devenv_root = "/Users/evanaze/workspace/magma";
+>>>>>>> 259563b63c8b691e0b92555e4adb66d9e2169e64
 devenv_dotfile = ./.devenv;
 devenv_dotfile_string = ".devenv";
 container_name = null;
-devenv_tmpdir = "/run/user/1000";
-devenv_runtime = "/run/user/1000/devenv-19fcf46";
+devenv_tmpdir = "/var/folders/jf/2gkck5pj0ks5tl08w48h0ztm0000gr/T/";
+devenv_runtime = "/var/folders/jf/2gkck5pj0ks5tl08w48h0ztm0000gr/T/devenv-bc37a8c";
 devenv_istesting = false;
 
             devenv =

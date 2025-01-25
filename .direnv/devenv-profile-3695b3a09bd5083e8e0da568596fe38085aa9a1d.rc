@@ -7,33 +7,33 @@ AR='ar'
 export AR
 AS='as'
 export AS
-BASH='/nix/store/a1s263pmsci9zykm5xcdf7x9rv26w6d5-bash-5.2p26/bin/bash'
-CC='gcc'
+BASH='/nix/store/a0a4dznjllw3bicpccvm2nc74zymgyiq-bash-5.2p26/bin/bash'
+CC='clang'
 export CC
-CONFIG_SHELL='/nix/store/a1s263pmsci9zykm5xcdf7x9rv26w6d5-bash-5.2p26/bin/bash'
+CONFIG_SHELL='/nix/store/a0a4dznjllw3bicpccvm2nc74zymgyiq-bash-5.2p26/bin/bash'
 export CONFIG_SHELL
-CXX='g++'
+CXX='clang++'
 export CXX
-DEVENV_DOTFILE='/home/evanaze/workspace/magma/.devenv'
+DEVENV_DOTFILE='/Users/evanaze/workspace/magma/.devenv'
 export DEVENV_DOTFILE
-DEVENV_PROFILE='/nix/store/mqamjr6ss6bwf0gv5v5q7lln2ac3hilp-devenv-profile'
+DEVENV_PROFILE='/nix/store/a7p2x7r0z1swslhfilsggf1cffk5wvyp-devenv-profile'
 export DEVENV_PROFILE
-DEVENV_ROOT='/home/evanaze/workspace/magma'
+DEVENV_ROOT='/Users/evanaze/workspace/magma'
 export DEVENV_ROOT
-DEVENV_RUNTIME='/run/user/1000/devenv-19fcf46'
+DEVENV_RUNTIME='/var/folders/jf/2gkck5pj0ks5tl08w48h0ztm0000gr/T/devenv-bc37a8c'
 export DEVENV_RUNTIME
-DEVENV_STATE='/home/evanaze/workspace/magma/.devenv/state'
+DEVENV_STATE='/Users/evanaze/workspace/magma/.devenv/state'
 export DEVENV_STATE
-DEVENV_TASKS='[{"after":[],"command":"/nix/store/aand0xnzbwy486cq7wfbm72z39f9akg3-devenv-enterShell","description":"Runs when entering the shell","input":{},"name":"devenv:enterShell","status":null},{"after":[],"command":null,"description":"Runs when entering the test environment","input":{},"name":"devenv:enterTest","status":null}]'
+DEVENV_TASKS='[{"after":[],"command":"/nix/store/fddx8mj8yc6wl3d7c7dlfahhqlqc37df-devenv-enterShell","description":"Runs when entering the shell","input":{},"name":"devenv:enterShell","status":null},{"after":[],"command":null,"description":"Runs when entering the test environment","input":{},"name":"devenv:enterTest","status":null}]'
 export DEVENV_TASKS
-GOPATH='/home/evanaze/workspace/magma/.devenv/state/go'
+GOPATH='/Users/evanaze/workspace/magma/.devenv/state/go'
 export GOPATH
-GOROOT='/nix/store/mzg3cka0bbr5jq96ysymwziw74fnk22m-go-1.22.1/share/go/'
+GOROOT='/nix/store/lpn4pj00xpvjnr1zlz9xq76r686n16jy-go-1.22.1/share/go/'
 export GOROOT
-GOTOOLDIR='/nix/store/dxlfbj2mpxc4ppjqi7gdpxfnjsffsyd6-gotools-0.18.0/bin'
+GOTOOLDIR='/nix/store/yd9gz3sfy2j30k53ln74c6vysrvy80nz-gotools-0.18.0/bin'
 export GOTOOLDIR
 HOSTTYPE='x86_64'
-HOST_PATH='/nix/store/ifzwv2xqwdnv1gz87rxkizi67py5p3vj-coreutils-9.4/bin:/nix/store/jg2i1qj5js5ckzvfq5b9p9j1gcv69750-findutils-4.9.0/bin:/nix/store/ksyif7fp4p0baafvdm5szd375s7qf6cz-diffutils-3.10/bin:/nix/store/237dff1igc3v09p9r23a37yw8dr04bv6-gnused-4.9/bin:/nix/store/avqi5nnx7qydr078ssgifc2hgzqipqgx-gnugrep-3.11/bin:/nix/store/2s1h0q7xhk33nsw90l0g53bxax0d19ih-gawk-5.2.2/bin:/nix/store/xwvgwr85gghbl66kj30sp19p2y1cypqv-gnutar-1.35/bin:/nix/store/vnfi66rm1dykn8gwwy5i4f48bhbk9x6x-gzip-1.13/bin:/nix/store/3bdjxil2cz8dkd6l5sf4qalla762m99d-bzip2-1.0.8-bin/bin:/nix/store/pg3wkw0as88676ib4ckbibrfwy5c5vzg-gnumake-4.4.1/bin:/nix/store/a1s263pmsci9zykm5xcdf7x9rv26w6d5-bash-5.2p26/bin:/nix/store/bf9rz7vvxannxp15wfi7x0bx5b68ky7z-patch-2.7.6/bin:/nix/store/jdg5lv2j7d765h8pn73qz72lilxrcb5x-xz-5.4.6-bin/bin:/nix/store/j3f0hag67n4piz2avqgf07gja8a2ifn6-file-5.45/bin'
+HOST_PATH='/nix/store/8f387jlysiryxdb4n8qg1lak8afs3dr5-xcodebuild-0.1.2-pre/bin:/nix/store/q9hrysvssa33ij06qfjq5122nanyq2m8-Toolchains/XcodeDefault.xctoolchain/bin:/nix/store/nadd5c14vbilp19dp7gjbprrg4lm52mb-coreutils-9.4/bin:/nix/store/ww8psw49ixqj6f0rji5vkmx8y1ji41r0-findutils-4.9.0/bin:/nix/store/zbx6mpbqlbhjg4bva9gx92j3crz2l14h-diffutils-3.10/bin:/nix/store/4lydh51r9wz857szjlb8l36s2x1xyd60-gnused-4.9/bin:/nix/store/9knginmg8n83xcibdj0xqw256f4qzxsz-gnugrep-3.11/bin:/nix/store/45ba46n7amlhprymx9w3adg8rva83a5m-gawk-5.2.2/bin:/nix/store/npxjv9g9yr8iwsyz5knzm6nmpq0wfp7p-gnutar-1.35/bin:/nix/store/2k3i053wlsckfp8qx2gmf04j7ag29kqa-gzip-1.13/bin:/nix/store/skkljbprfy4py384blp13h98vd699dx0-bzip2-1.0.8-bin/bin:/nix/store/jbmlcjrz0jm67vg57y8vn9yg0pdqbxaa-gnumake-4.4.1/bin:/nix/store/a0a4dznjllw3bicpccvm2nc74zymgyiq-bash-5.2p26/bin:/nix/store/c11b7174wnnyghcnqdjhkj2gwidyqkps-patch-2.7.6/bin:/nix/store/2si0cq2dwz8pskd8mhvz961c1419bw7p-xz-5.4.6-bin/bin:/nix/store/8dlma5hjrdhgr5zsrcd46nlqrv6zzj90-file-5.45/bin'
 export HOST_PATH
 IFS=' 	
 '
@@ -41,51 +41,58 @@ IN_NIX_SHELL='impure'
 export IN_NIX_SHELL
 LD='ld'
 export LD
+LD_DYLD_PATH='/usr/lib/dyld'
+export LD_DYLD_PATH
 LINENO='76'
-MACHTYPE='x86_64-pc-linux-gnu'
-NIX_BINTOOLS='/nix/store/jsjfmx7r6cpyixxsg7bjl5cy3y8hw7k7-binutils-wrapper-2.41'
+MACHTYPE='x86_64-apple-darwin23.3.0'
+MACOSX_DEPLOYMENT_TARGET='10.12'
+export MACOSX_DEPLOYMENT_TARGET
+NIX_BINTOOLS='/nix/store/8wxyf7d018cc0rcw379haxzfp8wahx02-cctools-binutils-darwin-wrapper-16.0.6-973.0.1'
 export NIX_BINTOOLS
-NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
-export NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
-NIX_BUILD_CORES='16'
+NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_apple_darwin='1'
+export NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_apple_darwin
+NIX_BUILD_CORES='8'
 export NIX_BUILD_CORES
-NIX_CC='/nix/store/ac1hb5dc2z4biwgy8mjrhlifffkkrvdq-gcc-wrapper-13.2.0'
+NIX_CC='/nix/store/a86y7l7i9i4fdbmwgivskf0c2jf4lvkn-clang-wrapper-16.0.6'
 export NIX_CC
-NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
-export NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
-NIX_CFLAGS_COMPILE=' -frandom-seed=sw681mlq2g'
+NIX_CC_WRAPPER_TARGET_HOST_x86_64_apple_darwin='1'
+export NIX_CC_WRAPPER_TARGET_HOST_x86_64_apple_darwin
+NIX_CFLAGS_COMPILE=' -frandom-seed=hkjy9sl5p6 -iframework /nix/store/saz8axax5zwbax1fb02c7247mrjd80fc-apple-framework-Foundation-11.0.0/Library/Frameworks -iframework /nix/store/mv2dxw71c3hhhjflpikbqmqaamx0lwgf-apple-framework-ApplicationServices-11.0.0/Library/Frameworks -iframework /nix/store/v1ikwlrxnam3qmkr695kkx53vj1s47vl-apple-framework-ColorSync-11.0.0/Library/Frameworks -iframework /nix/store/c9yxwki28aw9x7lwj8hxfy8z1fmz2g4p-apple-framework-CoreFoundation-11.0.0/Library/Frameworks -isystem /nix/store/zgwi5lvrlp4bjs7m5j1gxcwj5149g7ai-libobjc-11.0.0/include -iframework /nix/store/pnyjlkkfhn708bkb0rmzjjymqn95spi7-apple-framework-CoreGraphics-11.0.0/Library/Frameworks -iframework /nix/store/zq356264baxnh0jv0fdvp1yanrhfnz4p-apple-framework-IOKit-11.0.0/Library/Frameworks -iframework /nix/store/2cy90psnjss06yzmgr07x9i7xhw1ywzg-apple-framework-SystemConfiguration-11.0.0/Library/Frameworks -iframework /nix/store/h75db9cnmqh2r8smj524l24bln4grxsv-apple-framework-Security-11.0.0/Library/Frameworks -isystem /nix/store/winzkfky8nnfgs6w721ydh73bjl0szbm-apple-lib-libDER/include -iframework /nix/store/lpkrym4anwr95zppfhjkbj0ywnnklvdv-apple-framework-CoreServices-11.0.0/Library/Frameworks -iframework /nix/store/src1v2r01bjf51llz88gyfxfhyh1rj81-apple-framework-CFNetwork-11.0.0/Library/Frameworks -iframework /nix/store/v10lfzwh6j2m190j47scky1138jd25nz-apple-framework-CoreAudio-11.0.0/Library/Frameworks -iframework /nix/store/ddx8dpnlvcs4hmy4ldjqf8wlqn7pgq23-apple-framework-CoreAudioTypes-11.0.0/Library/Frameworks -iframework /nix/store/lcmhgw6k7k09pni98w7bcpfkjdvay1i4-apple-framework-DiskArbitration-11.0.0/Library/Frameworks -iframework /nix/store/flhgh7bd0v56mzxy1a27vfsib98zzppy-apple-framework-NetFS-11.0.0/Library/Frameworks -iframework /nix/store/6kyffaqmmqk7rzl2m7mxna4jv0z0qpa6-apple-framework-ServiceManagement-11.0.0/Library/Frameworks -iframework /nix/store/dya8j5dnx76m1zgankvikcl6jf3l56yq-apple-framework-CoreText-11.0.0/Library/Frameworks -iframework /nix/store/5h9ga9083nl4v5fn5arx06frj0mggp32-apple-framework-ImageIO-11.0.0/Library/Frameworks -iframework /nix/store/hn0l9prysknang2h5nk9c01jlhmq2045-apple-framework-Combine-11.0.0/Library/Frameworks -isystem /nix/store/q9hrysvssa33ij06qfjq5122nanyq2m8-Toolchains/XcodeDefault.xctoolchain/include -isystem /nix/store/y4lqgdhph7qjzsyah9ijdagy9p9jzm31-libcxx-16.0.6-dev/include -isystem /nix/store/hjd08a25fk02qakfn91bm5gwpq6mvddh-compiler-rt-libc-16.0.6-dev/include -iframework /nix/store/sqig8jg4pqxd7yma9bwqjs4rc9ar655v-apple-framework-CoreFoundation/Library/Frameworks -iframework /nix/store/saz8axax5zwbax1fb02c7247mrjd80fc-apple-framework-Foundation-11.0.0/Library/Frameworks -iframework /nix/store/mv2dxw71c3hhhjflpikbqmqaamx0lwgf-apple-framework-ApplicationServices-11.0.0/Library/Frameworks -iframework /nix/store/v1ikwlrxnam3qmkr695kkx53vj1s47vl-apple-framework-ColorSync-11.0.0/Library/Frameworks -iframework /nix/store/c9yxwki28aw9x7lwj8hxfy8z1fmz2g4p-apple-framework-CoreFoundation-11.0.0/Library/Frameworks -isystem /nix/store/zgwi5lvrlp4bjs7m5j1gxcwj5149g7ai-libobjc-11.0.0/include -iframework /nix/store/pnyjlkkfhn708bkb0rmzjjymqn95spi7-apple-framework-CoreGraphics-11.0.0/Library/Frameworks -iframework /nix/store/zq356264baxnh0jv0fdvp1yanrhfnz4p-apple-framework-IOKit-11.0.0/Library/Frameworks -iframework /nix/store/2cy90psnjss06yzmgr07x9i7xhw1ywzg-apple-framework-SystemConfiguration-11.0.0/Library/Frameworks -iframework /nix/store/h75db9cnmqh2r8smj524l24bln4grxsv-apple-framework-Security-11.0.0/Library/Frameworks -isystem /nix/store/winzkfky8nnfgs6w721ydh73bjl0szbm-apple-lib-libDER/include -iframework /nix/store/lpkrym4anwr95zppfhjkbj0ywnnklvdv-apple-framework-CoreServices-11.0.0/Library/Frameworks -iframework /nix/store/src1v2r01bjf51llz88gyfxfhyh1rj81-apple-framework-CFNetwork-11.0.0/Library/Frameworks -iframework /nix/store/v10lfzwh6j2m190j47scky1138jd25nz-apple-framework-CoreAudio-11.0.0/Library/Frameworks -iframework /nix/store/ddx8dpnlvcs4hmy4ldjqf8wlqn7pgq23-apple-framework-CoreAudioTypes-11.0.0/Library/Frameworks -iframework /nix/store/lcmhgw6k7k09pni98w7bcpfkjdvay1i4-apple-framework-DiskArbitration-11.0.0/Library/Frameworks -iframework /nix/store/flhgh7bd0v56mzxy1a27vfsib98zzppy-apple-framework-NetFS-11.0.0/Library/Frameworks -iframework /nix/store/6kyffaqmmqk7rzl2m7mxna4jv0z0qpa6-apple-framework-ServiceManagement-11.0.0/Library/Frameworks -iframework /nix/store/dya8j5dnx76m1zgankvikcl6jf3l56yq-apple-framework-CoreText-11.0.0/Library/Frameworks -iframework /nix/store/5h9ga9083nl4v5fn5arx06frj0mggp32-apple-framework-ImageIO-11.0.0/Library/Frameworks -iframework /nix/store/hn0l9prysknang2h5nk9c01jlhmq2045-apple-framework-Combine-11.0.0/Library/Frameworks -isystem /nix/store/q9hrysvssa33ij06qfjq5122nanyq2m8-Toolchains/XcodeDefault.xctoolchain/include -isystem /nix/store/y4lqgdhph7qjzsyah9ijdagy9p9jzm31-libcxx-16.0.6-dev/include -isystem /nix/store/hjd08a25fk02qakfn91bm5gwpq6mvddh-compiler-rt-libc-16.0.6-dev/include -iframework /nix/store/sqig8jg4pqxd7yma9bwqjs4rc9ar655v-apple-framework-CoreFoundation/Library/Frameworks'
 export NIX_CFLAGS_COMPILE
+NIX_DONT_SET_RPATH='1'
+export NIX_DONT_SET_RPATH
+NIX_DONT_SET_RPATH_FOR_BUILD='1'
+export NIX_DONT_SET_RPATH_FOR_BUILD
 NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
 NIX_HARDENING_ENABLE='bindnow format fortify fortify3 pic relro stackprotector strictoverflow'
 export NIX_HARDENING_ENABLE
-NIX_LDFLAGS='-rpath /home/evanaze/workspace/magma/outputs/out/lib '
+NIX_IGNORE_LD_THROUGH_GCC='1'
+export NIX_IGNORE_LD_THROUGH_GCC
+NIX_LDFLAGS=' -L/nix/store/zgwi5lvrlp4bjs7m5j1gxcwj5149g7ai-libobjc-11.0.0/lib -L/nix/store/8vh6l74rmw7m1i26yndc4g2mpfnz95iq-libcxx-16.0.6/lib -L/nix/store/c0d593xyyj5zsavvf51iqjzfsrgn4ccw-compiler-rt-libc-16.0.6/lib -L/nix/store/zgwi5lvrlp4bjs7m5j1gxcwj5149g7ai-libobjc-11.0.0/lib -L/nix/store/8vh6l74rmw7m1i26yndc4g2mpfnz95iq-libcxx-16.0.6/lib -L/nix/store/c0d593xyyj5zsavvf51iqjzfsrgn4ccw-compiler-rt-libc-16.0.6/lib'
 export NIX_LDFLAGS
 NIX_NO_SELF_RPATH='1'
-NIX_PKG_CONFIG_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
-export NIX_PKG_CONFIG_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
+export NIX_NO_SELF_RPATH
+NIX_PKG_CONFIG_WRAPPER_TARGET_HOST_x86_64_apple_darwin='1'
+export NIX_PKG_CONFIG_WRAPPER_TARGET_HOST_x86_64_apple_darwin
 NIX_STORE='/nix/store'
 export NIX_STORE
 NM='nm'
 export NM
-OBJCOPY='objcopy'
-export OBJCOPY
-OBJDUMP='objdump'
-export OBJDUMP
 OLDPWD=''
 export OLDPWD
 OPTERR='1'
-OSTYPE='linux-gnu'
-PATH='/nix/store/mzg3cka0bbr5jq96ysymwziw74fnk22m-go-1.22.1/bin:/nix/store/dwxmnps1k6mkjj83rsx74ynjsavqh5ma-delve-1.22.1/bin:/nix/store/dxlfbj2mpxc4ppjqi7gdpxfnjsffsyd6-gotools-0.18.0/bin:/nix/store/mc7c2xs9wq8g8dq9k18bab2rxd8r7d5s-gomodifytags-1.16.0/bin:/nix/store/s8cv8wkh0655pywkf4fdm4ahpqzqa08p-impl-1.3.0/bin:/nix/store/mw2wfdprkd69dplj8gf0h9m040i972rs-go-tools-2023.1.7/bin:/nix/store/x02v34bvx7ffn1f1dy0zphbczwmcbxbv-gopls-0.15.2/bin:/nix/store/68zz10avypkxiypnfyvvc6c1559ygkqp-gotests-1.6.0/bin:/nix/store/n88zka63xsxms5xj0v48n795r4qamdz4-serve/bin:/nix/store/08ia94d4kxw42cqwj9ffrn6vvkky7pjk-update/bin:/nix/store/ck4cm8bck5sf4l9r2kb3r6x165d6js1m-gomod2nix-dev/bin:/nix/store/4rwm1ni7hnhjlpn1v3w6g376hzkks7za-hugo-0.124.1/bin:/nix/store/fyxva0kkcmaigwk4218l0zdy8z3s9sj3-pkg-config-wrapper-0.29.2/bin:/nix/store/43n2dxi419b1jgv2bq1xg7y6n8k66xpb-patchelf-0.15.0/bin:/nix/store/ac1hb5dc2z4biwgy8mjrhlifffkkrvdq-gcc-wrapper-13.2.0/bin:/nix/store/a3mmr5jmrd0sjvmnc9vqvs388ppq1bnf-gcc-13.2.0/bin:/nix/store/fpv9yd0mwm1lyph02j9bdyxbjz8vaxzy-glibc-2.39-5-bin/bin:/nix/store/ifzwv2xqwdnv1gz87rxkizi67py5p3vj-coreutils-9.4/bin:/nix/store/jsjfmx7r6cpyixxsg7bjl5cy3y8hw7k7-binutils-wrapper-2.41/bin:/nix/store/hqvni28zpibl6jsqqimcvng6h6qm58xy-binutils-2.41/bin:/nix/store/ifzwv2xqwdnv1gz87rxkizi67py5p3vj-coreutils-9.4/bin:/nix/store/jg2i1qj5js5ckzvfq5b9p9j1gcv69750-findutils-4.9.0/bin:/nix/store/ksyif7fp4p0baafvdm5szd375s7qf6cz-diffutils-3.10/bin:/nix/store/237dff1igc3v09p9r23a37yw8dr04bv6-gnused-4.9/bin:/nix/store/avqi5nnx7qydr078ssgifc2hgzqipqgx-gnugrep-3.11/bin:/nix/store/2s1h0q7xhk33nsw90l0g53bxax0d19ih-gawk-5.2.2/bin:/nix/store/xwvgwr85gghbl66kj30sp19p2y1cypqv-gnutar-1.35/bin:/nix/store/vnfi66rm1dykn8gwwy5i4f48bhbk9x6x-gzip-1.13/bin:/nix/store/3bdjxil2cz8dkd6l5sf4qalla762m99d-bzip2-1.0.8-bin/bin:/nix/store/pg3wkw0as88676ib4ckbibrfwy5c5vzg-gnumake-4.4.1/bin:/nix/store/a1s263pmsci9zykm5xcdf7x9rv26w6d5-bash-5.2p26/bin:/nix/store/bf9rz7vvxannxp15wfi7x0bx5b68ky7z-patch-2.7.6/bin:/nix/store/jdg5lv2j7d765h8pn73qz72lilxrcb5x-xz-5.4.6-bin/bin:/nix/store/j3f0hag67n4piz2avqgf07gja8a2ifn6-file-5.45/bin'
+OSTYPE='darwin23.3.0'
+PATH='/nix/store/lpn4pj00xpvjnr1zlz9xq76r686n16jy-go-1.22.1/bin:/nix/store/cdbylj3fc697xj9b3x9gjr437bjdxfvv-delve-1.22.1/bin:/nix/store/yd9gz3sfy2j30k53ln74c6vysrvy80nz-gotools-0.18.0/bin:/nix/store/3n8kfc4x2idq6sdmkjpy24c8cq5vsn0s-gomodifytags-1.16.0/bin:/nix/store/igqcdgqbqr166ab2rh553hfy651kvfc7-impl-1.3.0/bin:/nix/store/azf2fgakzydqfcsl0ar08rgq1qg81lwb-go-tools-2023.1.7/bin:/nix/store/vlvnc06rjj2rlsnxlx89al1mm6d6ga5k-gopls-0.15.2/bin:/nix/store/xc8h1m8q6x7jrlkqwl1fvczkhv4flzyd-gotests-1.6.0/bin:/nix/store/ksdvi8089jsmms15kzl8r7m7y5437s6b-serve/bin:/nix/store/6hwrz35fmgmx8w74rydrvrb1yih7lvpj-update/bin:/nix/store/xpmam1pfalcilr6klgwy93p63axah9pa-gomod2nix-dev/bin:/nix/store/nhfnhk99rwq5ving0adayix38m4kfkpq-hugo-0.124.1/bin:/nix/store/kkrhvmqk3f22rc4z94jhh6m0ppbvnv19-pkg-config-wrapper-0.29.2/bin:/nix/store/a86y7l7i9i4fdbmwgivskf0c2jf4lvkn-clang-wrapper-16.0.6/bin:/nix/store/sp3fqkfglpn943ffniyqjqswd22h7hag-clang-16.0.6/bin:/nix/store/nadd5c14vbilp19dp7gjbprrg4lm52mb-coreutils-9.4/bin:/nix/store/8wxyf7d018cc0rcw379haxzfp8wahx02-cctools-binutils-darwin-wrapper-16.0.6-973.0.1/bin:/nix/store/m465asx3ymh99z06zxgphh9f82f96kkc-cctools-binutils-darwin-16.0.6-973.0.1/bin:/nix/store/8f387jlysiryxdb4n8qg1lak8afs3dr5-xcodebuild-0.1.2-pre/bin:/nix/store/q9hrysvssa33ij06qfjq5122nanyq2m8-Toolchains/XcodeDefault.xctoolchain/bin:/nix/store/nadd5c14vbilp19dp7gjbprrg4lm52mb-coreutils-9.4/bin:/nix/store/ww8psw49ixqj6f0rji5vkmx8y1ji41r0-findutils-4.9.0/bin:/nix/store/zbx6mpbqlbhjg4bva9gx92j3crz2l14h-diffutils-3.10/bin:/nix/store/4lydh51r9wz857szjlb8l36s2x1xyd60-gnused-4.9/bin:/nix/store/9knginmg8n83xcibdj0xqw256f4qzxsz-gnugrep-3.11/bin:/nix/store/45ba46n7amlhprymx9w3adg8rva83a5m-gawk-5.2.2/bin:/nix/store/npxjv9g9yr8iwsyz5knzm6nmpq0wfp7p-gnutar-1.35/bin:/nix/store/2k3i053wlsckfp8qx2gmf04j7ag29kqa-gzip-1.13/bin:/nix/store/skkljbprfy4py384blp13h98vd699dx0-bzip2-1.0.8-bin/bin:/nix/store/jbmlcjrz0jm67vg57y8vn9yg0pdqbxaa-gnumake-4.4.1/bin:/nix/store/a0a4dznjllw3bicpccvm2nc74zymgyiq-bash-5.2p26/bin:/nix/store/c11b7174wnnyghcnqdjhkj2gwidyqkps-patch-2.7.6/bin:/nix/store/2si0cq2dwz8pskd8mhvz961c1419bw7p-xz-5.4.6-bin/bin:/nix/store/8dlma5hjrdhgr5zsrcd46nlqrv6zzj90-file-5.45/bin'
 export PATH
+PATH_LOCALE='/nix/store/dbfd7iwi0chl6p927nv2nm90dgx9klal-adv_cmds-119-locale/share/locale'
+export PATH_LOCALE
 PKG_CONFIG='pkg-config'
 export PKG_CONFIG
 PS4='+ '
 RANLIB='ranlib'
 export RANLIB
-READELF='readelf'
-export READELF
-SHELL='/nix/store/a1s263pmsci9zykm5xcdf7x9rv26w6d5-bash-5.2p26/bin/bash'
+SHELL='/nix/store/a0a4dznjllw3bicpccvm2nc74zymgyiq-bash-5.2p26/bin/bash'
 export SHELL
 SIZE='size'
 export SIZE
@@ -95,8 +102,20 @@ STRINGS='strings'
 export STRINGS
 STRIP='strip'
 export STRIP
-XDG_DATA_DIRS='/nix/store/mzg3cka0bbr5jq96ysymwziw74fnk22m-go-1.22.1/share:/nix/store/ck4cm8bck5sf4l9r2kb3r6x165d6js1m-gomod2nix-dev/share:/nix/store/4rwm1ni7hnhjlpn1v3w6g376hzkks7za-hugo-0.124.1/share:/nix/store/fyxva0kkcmaigwk4218l0zdy8z3s9sj3-pkg-config-wrapper-0.29.2/share:/nix/store/43n2dxi419b1jgv2bq1xg7y6n8k66xpb-patchelf-0.15.0/share'
+XDG_DATA_DIRS='/nix/store/lpn4pj00xpvjnr1zlz9xq76r686n16jy-go-1.22.1/share:/nix/store/xpmam1pfalcilr6klgwy93p63axah9pa-gomod2nix-dev/share:/nix/store/nhfnhk99rwq5ving0adayix38m4kfkpq-hugo-0.124.1/share:/nix/store/kkrhvmqk3f22rc4z94jhh6m0ppbvnv19-pkg-config-wrapper-0.29.2/share'
 export XDG_DATA_DIRS
+ZERO_AR_DATE='1'
+export ZERO_AR_DATE
+__darwinAllowLocalNetworking=''
+export __darwinAllowLocalNetworking
+__impureHostDeps='/System/Library/Frameworks/CoreFoundation.framework /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation /bin/sh /usr/lib/libSystem.B.dylib /usr/lib/system/libunc.dylib /dev/zero /dev/random /dev/urandom /bin/sh'
+export __impureHostDeps
+__propagatedImpureHostDeps=''
+export __propagatedImpureHostDeps
+__propagatedSandboxProfile=''
+export __propagatedSandboxProfile
+__sandboxProfile=''
+export __sandboxProfile
 __structuredAttrs=''
 export __structuredAttrs
 _substituteStream_has_warned_replace_deprecation='false'
@@ -112,14 +131,14 @@ buildPhase='{ echo "------------------------------------------------------------
 } >> "$out"
 '
 export buildPhase
-builder='/nix/store/a1s263pmsci9zykm5xcdf7x9rv26w6d5-bash-5.2p26/bin/bash'
+builder='/nix/store/a0a4dznjllw3bicpccvm2nc74zymgyiq-bash-5.2p26/bin/bash'
 export builder
 cmakeFlags=''
 export cmakeFlags
 configureFlags=''
 export configureFlags
-defaultBuildInputs=''
-defaultNativeBuildInputs='/nix/store/43n2dxi419b1jgv2bq1xg7y6n8k66xpb-patchelf-0.15.0 /nix/store/9la7flpks9z89djvmmblzzs4fqvhwgzg-update-autotools-gnu-config-scripts-hook /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh /nix/store/ilaf1w22bxi6jsi45alhmvvdgy4ly3zs-patch-shebangs.sh /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh /nix/store/ac1hb5dc2z4biwgy8mjrhlifffkkrvdq-gcc-wrapper-13.2.0'
+defaultBuildInputs='/nix/store/sqig8jg4pqxd7yma9bwqjs4rc9ar655v-apple-framework-CoreFoundation'
+defaultNativeBuildInputs='/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh /nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh /nix/store/ilaf1w22bxi6jsi45alhmvvdgy4ly3zs-patch-shebangs.sh /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh /nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh /nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh /nix/store/a86y7l7i9i4fdbmwgivskf0c2jf4lvkn-clang-wrapper-16.0.6'
 depsBuildBuild=''
 export depsBuildBuild
 depsBuildBuildPropagated=''
@@ -148,18 +167,18 @@ declare -a envBuildTargetHooks=()
 declare -a envHostHostHooks=('pkgConfigWrapper_addPkgConfigPath' 'ccWrapper_addCVars' 'bintoolsWrapper_addLDVars' )
 declare -a envHostTargetHooks=('pkgConfigWrapper_addPkgConfigPath' 'ccWrapper_addCVars' 'bintoolsWrapper_addLDVars' )
 declare -a envTargetTargetHooks=()
-declare -a fixupOutputHooks=('if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi' 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi' 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi' '_moveLib64' '_moveSbin' '_moveSystemdUserUnits' 'patchShebangsAuto' '_pruneLibtoolFiles' '_doStrip' )
-guess='16'
+declare -a fixupOutputHooks=('if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi' 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi' '_moveLib64' '_moveSbin' '_moveSystemdUserUnits' 'patchShebangsAuto' '_pruneLibtoolFiles' '_doStrip' )
+guess='8'
 hardeningDisable=''
 export hardeningDisable
-initialPath='/nix/store/ifzwv2xqwdnv1gz87rxkizi67py5p3vj-coreutils-9.4 /nix/store/jg2i1qj5js5ckzvfq5b9p9j1gcv69750-findutils-4.9.0 /nix/store/ksyif7fp4p0baafvdm5szd375s7qf6cz-diffutils-3.10 /nix/store/237dff1igc3v09p9r23a37yw8dr04bv6-gnused-4.9 /nix/store/avqi5nnx7qydr078ssgifc2hgzqipqgx-gnugrep-3.11 /nix/store/2s1h0q7xhk33nsw90l0g53bxax0d19ih-gawk-5.2.2 /nix/store/xwvgwr85gghbl66kj30sp19p2y1cypqv-gnutar-1.35 /nix/store/vnfi66rm1dykn8gwwy5i4f48bhbk9x6x-gzip-1.13 /nix/store/3bdjxil2cz8dkd6l5sf4qalla762m99d-bzip2-1.0.8-bin /nix/store/pg3wkw0as88676ib4ckbibrfwy5c5vzg-gnumake-4.4.1 /nix/store/a1s263pmsci9zykm5xcdf7x9rv26w6d5-bash-5.2p26 /nix/store/bf9rz7vvxannxp15wfi7x0bx5b68ky7z-patch-2.7.6 /nix/store/jdg5lv2j7d765h8pn73qz72lilxrcb5x-xz-5.4.6-bin /nix/store/j3f0hag67n4piz2avqgf07gja8a2ifn6-file-5.45'
+initialPath='/nix/store/nadd5c14vbilp19dp7gjbprrg4lm52mb-coreutils-9.4 /nix/store/ww8psw49ixqj6f0rji5vkmx8y1ji41r0-findutils-4.9.0 /nix/store/zbx6mpbqlbhjg4bva9gx92j3crz2l14h-diffutils-3.10 /nix/store/4lydh51r9wz857szjlb8l36s2x1xyd60-gnused-4.9 /nix/store/9knginmg8n83xcibdj0xqw256f4qzxsz-gnugrep-3.11 /nix/store/45ba46n7amlhprymx9w3adg8rva83a5m-gawk-5.2.2 /nix/store/npxjv9g9yr8iwsyz5knzm6nmpq0wfp7p-gnutar-1.35 /nix/store/2k3i053wlsckfp8qx2gmf04j7ag29kqa-gzip-1.13 /nix/store/skkljbprfy4py384blp13h98vd699dx0-bzip2-1.0.8-bin /nix/store/jbmlcjrz0jm67vg57y8vn9yg0pdqbxaa-gnumake-4.4.1 /nix/store/a0a4dznjllw3bicpccvm2nc74zymgyiq-bash-5.2p26 /nix/store/c11b7174wnnyghcnqdjhkj2gwidyqkps-patch-2.7.6 /nix/store/2si0cq2dwz8pskd8mhvz961c1419bw7p-xz-5.4.6-bin /nix/store/8dlma5hjrdhgr5zsrcd46nlqrv6zzj90-file-5.45'
 mesonFlags=''
 export mesonFlags
 name='devenv-shell-env'
 export name
-nativeBuildInputs='/nix/store/mzg3cka0bbr5jq96ysymwziw74fnk22m-go-1.22.1 /nix/store/dwxmnps1k6mkjj83rsx74ynjsavqh5ma-delve-1.22.1 /nix/store/dxlfbj2mpxc4ppjqi7gdpxfnjsffsyd6-gotools-0.18.0 /nix/store/mc7c2xs9wq8g8dq9k18bab2rxd8r7d5s-gomodifytags-1.16.0 /nix/store/s8cv8wkh0655pywkf4fdm4ahpqzqa08p-impl-1.3.0 /nix/store/mw2wfdprkd69dplj8gf0h9m040i972rs-go-tools-2023.1.7 /nix/store/x02v34bvx7ffn1f1dy0zphbczwmcbxbv-gopls-0.15.2 /nix/store/68zz10avypkxiypnfyvvc6c1559ygkqp-gotests-1.6.0 /nix/store/n88zka63xsxms5xj0v48n795r4qamdz4-serve /nix/store/08ia94d4kxw42cqwj9ffrn6vvkky7pjk-update /nix/store/ck4cm8bck5sf4l9r2kb3r6x165d6js1m-gomod2nix-dev /nix/store/4rwm1ni7hnhjlpn1v3w6g376hzkks7za-hugo-0.124.1 /nix/store/fyxva0kkcmaigwk4218l0zdy8z3s9sj3-pkg-config-wrapper-0.29.2'
+nativeBuildInputs='/nix/store/lpn4pj00xpvjnr1zlz9xq76r686n16jy-go-1.22.1 /nix/store/cdbylj3fc697xj9b3x9gjr437bjdxfvv-delve-1.22.1 /nix/store/yd9gz3sfy2j30k53ln74c6vysrvy80nz-gotools-0.18.0 /nix/store/3n8kfc4x2idq6sdmkjpy24c8cq5vsn0s-gomodifytags-1.16.0 /nix/store/igqcdgqbqr166ab2rh553hfy651kvfc7-impl-1.3.0 /nix/store/azf2fgakzydqfcsl0ar08rgq1qg81lwb-go-tools-2023.1.7 /nix/store/vlvnc06rjj2rlsnxlx89al1mm6d6ga5k-gopls-0.15.2 /nix/store/xc8h1m8q6x7jrlkqwl1fvczkhv4flzyd-gotests-1.6.0 /nix/store/ksdvi8089jsmms15kzl8r7m7y5437s6b-serve /nix/store/6hwrz35fmgmx8w74rydrvrb1yih7lvpj-update /nix/store/xpmam1pfalcilr6klgwy93p63axah9pa-gomod2nix-dev /nix/store/nhfnhk99rwq5ving0adayix38m4kfkpq-hugo-0.124.1 /nix/store/kkrhvmqk3f22rc4z94jhh6m0ppbvnv19-pkg-config-wrapper-0.29.2'
 export nativeBuildInputs
-out='/home/evanaze/workspace/magma/outputs/out'
+out='/Users/evanaze/workspace/magma/outputs/out'
 export out
 outputBin='out'
 outputDev='out'
@@ -176,21 +195,20 @@ patches=''
 export patches
 phases='buildPhase'
 export phases
-pkg='/nix/store/ac1hb5dc2z4biwgy8mjrhlifffkkrvdq-gcc-wrapper-13.2.0'
+pkg='/nix/store/sqig8jg4pqxd7yma9bwqjs4rc9ar655v-apple-framework-CoreFoundation'
 declare -a pkgsBuildBuild=()
-declare -a pkgsBuildHost=('/nix/store/mzg3cka0bbr5jq96ysymwziw74fnk22m-go-1.22.1' '/nix/store/dwxmnps1k6mkjj83rsx74ynjsavqh5ma-delve-1.22.1' '/nix/store/dxlfbj2mpxc4ppjqi7gdpxfnjsffsyd6-gotools-0.18.0' '/nix/store/mc7c2xs9wq8g8dq9k18bab2rxd8r7d5s-gomodifytags-1.16.0' '/nix/store/s8cv8wkh0655pywkf4fdm4ahpqzqa08p-impl-1.3.0' '/nix/store/mw2wfdprkd69dplj8gf0h9m040i972rs-go-tools-2023.1.7' '/nix/store/x02v34bvx7ffn1f1dy0zphbczwmcbxbv-gopls-0.15.2' '/nix/store/68zz10avypkxiypnfyvvc6c1559ygkqp-gotests-1.6.0' '/nix/store/n88zka63xsxms5xj0v48n795r4qamdz4-serve' '/nix/store/08ia94d4kxw42cqwj9ffrn6vvkky7pjk-update' '/nix/store/ck4cm8bck5sf4l9r2kb3r6x165d6js1m-gomod2nix-dev' '/nix/store/4rwm1ni7hnhjlpn1v3w6g376hzkks7za-hugo-0.124.1' '/nix/store/fyxva0kkcmaigwk4218l0zdy8z3s9sj3-pkg-config-wrapper-0.29.2' '/nix/store/43n2dxi419b1jgv2bq1xg7y6n8k66xpb-patchelf-0.15.0' '/nix/store/9la7flpks9z89djvmmblzzs4fqvhwgzg-update-autotools-gnu-config-scripts-hook' '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh' '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh' '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh' '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh' '/nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh' '/nix/store/ilaf1w22bxi6jsi45alhmvvdgy4ly3zs-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh' '/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh' '/nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh' '/nix/store/ac1hb5dc2z4biwgy8mjrhlifffkkrvdq-gcc-wrapper-13.2.0' '/nix/store/jsjfmx7r6cpyixxsg7bjl5cy3y8hw7k7-binutils-wrapper-2.41' )
+declare -a pkgsBuildHost=('/nix/store/lpn4pj00xpvjnr1zlz9xq76r686n16jy-go-1.22.1' '/nix/store/cdbylj3fc697xj9b3x9gjr437bjdxfvv-delve-1.22.1' '/nix/store/yd9gz3sfy2j30k53ln74c6vysrvy80nz-gotools-0.18.0' '/nix/store/3n8kfc4x2idq6sdmkjpy24c8cq5vsn0s-gomodifytags-1.16.0' '/nix/store/igqcdgqbqr166ab2rh553hfy651kvfc7-impl-1.3.0' '/nix/store/azf2fgakzydqfcsl0ar08rgq1qg81lwb-go-tools-2023.1.7' '/nix/store/vlvnc06rjj2rlsnxlx89al1mm6d6ga5k-gopls-0.15.2' '/nix/store/xc8h1m8q6x7jrlkqwl1fvczkhv4flzyd-gotests-1.6.0' '/nix/store/ksdvi8089jsmms15kzl8r7m7y5437s6b-serve' '/nix/store/6hwrz35fmgmx8w74rydrvrb1yih7lvpj-update' '/nix/store/xpmam1pfalcilr6klgwy93p63axah9pa-gomod2nix-dev' '/nix/store/nhfnhk99rwq5ving0adayix38m4kfkpq-hugo-0.124.1' '/nix/store/kkrhvmqk3f22rc4z94jhh6m0ppbvnv19-pkg-config-wrapper-0.29.2' '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh' '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh' '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh' '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh' '/nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh' '/nix/store/ilaf1w22bxi6jsi45alhmvvdgy4ly3zs-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh' '/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh' '/nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh' '/nix/store/a86y7l7i9i4fdbmwgivskf0c2jf4lvkn-clang-wrapper-16.0.6' '/nix/store/8wxyf7d018cc0rcw379haxzfp8wahx02-cctools-binutils-darwin-wrapper-16.0.6-973.0.1' )
 declare -a pkgsBuildTarget=()
-declare -a pkgsHostHost=()
-declare -a pkgsHostTarget=()
+declare -a pkgsHostHost=('/nix/store/saz8axax5zwbax1fb02c7247mrjd80fc-apple-framework-Foundation-11.0.0' '/nix/store/mv2dxw71c3hhhjflpikbqmqaamx0lwgf-apple-framework-ApplicationServices-11.0.0' '/nix/store/v1ikwlrxnam3qmkr695kkx53vj1s47vl-apple-framework-ColorSync-11.0.0' '/nix/store/c9yxwki28aw9x7lwj8hxfy8z1fmz2g4p-apple-framework-CoreFoundation-11.0.0' '/nix/store/zgwi5lvrlp4bjs7m5j1gxcwj5149g7ai-libobjc-11.0.0' '/nix/store/pnyjlkkfhn708bkb0rmzjjymqn95spi7-apple-framework-CoreGraphics-11.0.0' '/nix/store/zq356264baxnh0jv0fdvp1yanrhfnz4p-apple-framework-IOKit-11.0.0' '/nix/store/2cy90psnjss06yzmgr07x9i7xhw1ywzg-apple-framework-SystemConfiguration-11.0.0' '/nix/store/h75db9cnmqh2r8smj524l24bln4grxsv-apple-framework-Security-11.0.0' '/nix/store/winzkfky8nnfgs6w721ydh73bjl0szbm-apple-lib-libDER' '/nix/store/lpkrym4anwr95zppfhjkbj0ywnnklvdv-apple-framework-CoreServices-11.0.0' '/nix/store/src1v2r01bjf51llz88gyfxfhyh1rj81-apple-framework-CFNetwork-11.0.0' '/nix/store/v10lfzwh6j2m190j47scky1138jd25nz-apple-framework-CoreAudio-11.0.0' '/nix/store/ddx8dpnlvcs4hmy4ldjqf8wlqn7pgq23-apple-framework-CoreAudioTypes-11.0.0' '/nix/store/lcmhgw6k7k09pni98w7bcpfkjdvay1i4-apple-framework-DiskArbitration-11.0.0' '/nix/store/flhgh7bd0v56mzxy1a27vfsib98zzppy-apple-framework-NetFS-11.0.0' '/nix/store/6kyffaqmmqk7rzl2m7mxna4jv0z0qpa6-apple-framework-ServiceManagement-11.0.0' '/nix/store/dya8j5dnx76m1zgankvikcl6jf3l56yq-apple-framework-CoreText-11.0.0' '/nix/store/5h9ga9083nl4v5fn5arx06frj0mggp32-apple-framework-ImageIO-11.0.0' '/nix/store/hn0l9prysknang2h5nk9c01jlhmq2045-apple-framework-Combine-11.0.0' '/nix/store/8f387jlysiryxdb4n8qg1lak8afs3dr5-xcodebuild-0.1.2-pre' '/nix/store/q9hrysvssa33ij06qfjq5122nanyq2m8-Toolchains/XcodeDefault.xctoolchain' '/nix/store/y4lqgdhph7qjzsyah9ijdagy9p9jzm31-libcxx-16.0.6-dev' '/nix/store/8vh6l74rmw7m1i26yndc4g2mpfnz95iq-libcxx-16.0.6' '/nix/store/hjd08a25fk02qakfn91bm5gwpq6mvddh-compiler-rt-libc-16.0.6-dev' '/nix/store/c0d593xyyj5zsavvf51iqjzfsrgn4ccw-compiler-rt-libc-16.0.6' )
+declare -a pkgsHostTarget=('/nix/store/sqig8jg4pqxd7yma9bwqjs4rc9ar655v-apple-framework-CoreFoundation' )
 declare -a pkgsTargetTarget=()
 declare -a postFixupHooks=('_makeSymlinksRelativeInAllOutputs' '_multioutPropagateDev' )
 declare -a postUnpackHooks=('_updateSourceDateEpochFromSourceRoot' )
-declare -a preConfigureHooks=('_multioutConfig' )
-preConfigurePhases=' updateAutotoolsGnuConfigScriptsPhase'
+declare -a preConfigureHooks=('_multioutConfig' 'forceLinkCoreFoundationFramework' )
 declare -a preFixupHooks=('_moveToShare' '_multioutDocs' '_multioutDevs' )
 preferLocalBuild='1'
 export preferLocalBuild
-prefix='/home/evanaze/workspace/magma/outputs/out'
+prefix='/Users/evanaze/workspace/magma/outputs/out'
 declare -a propagatedBuildDepFiles=('propagated-build-build-deps' 'propagated-native-build-inputs' 'propagated-build-target-deps' )
 propagatedBuildInputs=''
 export propagatedBuildInputs
@@ -198,13 +216,13 @@ declare -a propagatedHostDepFiles=('propagated-host-host-deps' 'propagated-build
 propagatedNativeBuildInputs=''
 export propagatedNativeBuildInputs
 declare -a propagatedTargetDepFiles=('propagated-target-target-deps' )
-shell='/nix/store/a1s263pmsci9zykm5xcdf7x9rv26w6d5-bash-5.2p26/bin/bash'
+shell='/nix/store/a0a4dznjllw3bicpccvm2nc74zymgyiq-bash-5.2p26/bin/bash'
 export shell
 shellHook='
 
 export PATH=$GOPATH/bin:$PATH
 
-/nix/store/sgnwk6bqvdwa4rg2apdc6bxwbpllf80a-devenv-1.2/bin/tasks run devenv:enterShell
+/nix/store/0kimma3dmq23vh22yakz7b1zax5zk2xb-devenv-1.2/bin/tasks run devenv:enterShell
 if [ -f "$DEVENV_DOTFILE/load-exports" ]; then
   source "$DEVENV_DOTFILE/load-exports"
 fi
@@ -213,9 +231,6 @@ fi
 export PS1="\[\e[0;34m\](devenv)\[\e[0m\] ${PS1-}"
 
 # set path to locales on non-NixOS Linux hosts
-if [ -z "${LOCALE_ARCHIVE-}" ]; then
-  export LOCALE_ARCHIVE=/nix/store/acpg83w1wh875vgnlh0va08wfggj35xh-glibc-locales-2.39-5/lib/locale/locale-archive
-fi
 
 
 # note what environments are active, but make sure we don'\''t repeat them
@@ -230,22 +245,23 @@ if [ ! type -p direnv &>/dev/null && -f .envrc ]; then
 fi
 
 mkdir -p "$DEVENV_STATE"
-if [ ! -L "$DEVENV_DOTFILE/profile" ] || [ "$(/nix/store/ifzwv2xqwdnv1gz87rxkizi67py5p3vj-coreutils-9.4/bin/readlink $DEVENV_DOTFILE/profile)" != "/nix/store/mqamjr6ss6bwf0gv5v5q7lln2ac3hilp-devenv-profile" ]
+if [ ! -L "$DEVENV_DOTFILE/profile" ] || [ "$(/nix/store/nadd5c14vbilp19dp7gjbprrg4lm52mb-coreutils-9.4/bin/readlink $DEVENV_DOTFILE/profile)" != "/nix/store/a7p2x7r0z1swslhfilsggf1cffk5wvyp-devenv-profile" ]
 then
-  ln -snf /nix/store/mqamjr6ss6bwf0gv5v5q7lln2ac3hilp-devenv-profile "$DEVENV_DOTFILE/profile"
+  ln -snf /nix/store/a7p2x7r0z1swslhfilsggf1cffk5wvyp-devenv-profile "$DEVENV_DOTFILE/profile"
 fi
 unset HOST_PATH NIX_BUILD_CORES __structuredAttrs buildInputs buildPhase builder depsBuildBuild depsBuildBuildPropagated depsBuildTarget depsBuildTargetPropagated depsHostHost depsHostHostPropagated depsTargetTarget depsTargetTargetPropagated dontAddDisableDepTrack doCheck doInstallCheck nativeBuildInputs out outputs patches phases preferLocalBuild propagatedBuildInputs propagatedNativeBuildInputs shell shellHook stdenv strictDeps
 
-mkdir -p '\''/run/user/1000/devenv-19fcf46'\''
-ln -snf '\''/run/user/1000/devenv-19fcf46'\'' '\''/home/evanaze/workspace/magma/.devenv'\''/run
+mkdir -p '\''/var/folders/jf/2gkck5pj0ks5tl08w48h0ztm0000gr/T/devenv-bc37a8c'\''
+ln -snf '\''/var/folders/jf/2gkck5pj0ks5tl08w48h0ztm0000gr/T/devenv-bc37a8c'\'' '\''/Users/evanaze/workspace/magma/.devenv'\''/run
 
 '
 export shellHook
-stdenv='/nix/store/v5lsd029lz5lfhamivbgqyp3zdv94ah2-stdenv-linux'
+stdenv='/nix/store/a1lwylhh6clvyi0vq3zw3ij7km1sfr75-stdenv-darwin'
 export stdenv
 strictDeps=''
 export strictDeps
-system='x86_64-linux'
+stripDebugFlags='-S'
+system='x86_64-darwin'
 export system
 declare -a unpackCmdHooks=('_defaultUnpack' )
 _accumFlagsArray ()
@@ -1110,6 +1126,12 @@ fixupPhase ()
     fi;
     runHook postFixup
 }
+forceLinkCoreFoundationFramework ()
+{
+ 
+    NIX_CFLAGS_COMPILE="-F/nix/store/c9yxwki28aw9x7lwj8hxfy8z1fmz2g4p-apple-framework-CoreFoundation-11.0.0/Library/Frameworks${NIX_CFLAGS_COMPILE:+ }${NIX_CFLAGS_COMPILE-}";
+    NIX_LDFLAGS+=" /nix/store/c9yxwki28aw9x7lwj8hxfy8z1fmz2g4p-apple-framework-CoreFoundation-11.0.0/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd"
+}
 genericBuild ()
 {
  
@@ -1163,7 +1185,7 @@ getRole ()
             role_post='_FOR_TARGET'
         ;;
         *)
-            echo "binutils-wrapper-2.41: used as improper sort of dependency" 1>&2;
+            echo "cctools-binutils-darwin-wrapper-16.0.6-973.0.1: used as improper sort of dependency" 1>&2;
             return 1
         ;;
     esac
@@ -1183,16 +1205,16 @@ getTargetRoleWrapper ()
  
     case $targetOffset in 
         -1)
-            export NIX_BINTOOLS_WRAPPER_TARGET_BUILD_x86_64_unknown_linux_gnu=1
+            export NIX_BINTOOLS_WRAPPER_TARGET_BUILD_x86_64_apple_darwin=1
         ;;
         0)
-            export NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu=1
+            export NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_apple_darwin=1
         ;;
         1)
-            export NIX_BINTOOLS_WRAPPER_TARGET_TARGET_x86_64_unknown_linux_gnu=1
+            export NIX_BINTOOLS_WRAPPER_TARGET_TARGET_x86_64_apple_darwin=1
         ;;
         *)
-            echo "binutils-wrapper-2.41: used as improper sort of dependency" 1>&2;
+            echo "cctools-binutils-darwin-wrapper-16.0.6-973.0.1: used as improper sort of dependency" 1>&2;
             return 1
         ;;
     esac
@@ -1348,24 +1370,6 @@ moveToOutput ()
             fi;
         done;
     done
-}
-patchELF ()
-{
- 
-    local dir="$1";
-    [ -e "$dir" ] || return 0;
-    echo "shrinking RPATHs of ELF executables and libraries in $dir";
-    local i;
-    while IFS= read -r -d '' i; do
-        if [[ "$i" =~ .build-id ]]; then
-            continue;
-        fi;
-        if ! isELF "$i"; then
-            continue;
-        fi;
-        echo "shrinking $i";
-        patchelf --shrink-rpath "$i" || true;
-    done < <(find "$dir" -type f -print0)
 }
 patchPhase ()
 {
@@ -1912,21 +1916,6 @@ unpackPhase ()
         chmod -R u+w -- "$sourceRoot";
     fi;
     runHook postUnpack
-}
-updateAutotoolsGnuConfigScriptsPhase ()
-{
- 
-    if [ -n "${dontUpdateAutotoolsGnuConfigScripts-}" ]; then
-        return;
-    fi;
-    for script in config.sub config.guess;
-    do
-        for f in $(find . -type f -name "$script");
-        do
-            echo "Updating Autotools / GNU config script to a newer upstream version: $f";
-            cp -f "/nix/store/x1lr71p3jqsy443jz0ravm3fv9yr2x0y-gnu-config-2023-09-19/$script" "$f";
-        done;
-    done
 }
 updateSourceDateEpoch ()
 {
